@@ -12,7 +12,7 @@ arcade.open_window(600,400,"Ch.7 Jedi Training",True)
 arcade.set_background_color(arcade.color.ALMOND)
 arcade.start_render()
 arcade.draw_point(560,10,arcade.color.RED,5)
-for y in range(0,SH,20):
+for y in range(0,SW,20):
     arcade.draw_line(0,y,SW,y,arcade.color.BLACK)
 for x in range(0,SW,20):
     arcade.draw_line(x,0,x,SH,arcade.color.BLACK)
